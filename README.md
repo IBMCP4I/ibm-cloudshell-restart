@@ -23,24 +23,22 @@ If your IBM Cloud Shell session has expired follow the instructions below to rec
 
 7. Copy the contents of the field **Log in with this token** to the clipboard. It provides a login command with a valid token for your username.
 
-8. In a separate browser tab go to the IBM Cloud URL [https://cloud.ibm.com](https://cloud.ibm.com) and log in with your **ibm.com** credentials.
+8.  Paste the *oc login* command in  the IBM Cloud Shell terminal and run it.
 
-9.  Paste the *oc login* command in  the IBM Cloud Shell terminal and run it.
-
-10. In the IBM Cloud Shell terminal set an environment variable for the  *student id* assigned to you by the instructors (e.g. **user005**) by running the following command and replacing *user???* with your assigned *student id*.
+9. In the IBM Cloud Shell terminal set an environment variable for the  *student id* assigned to you by the instructors (e.g. **user005**) by running the following command and replacing *user???* with your assigned *student id*.
 
 ```
 export STUDENTID=user???
 ```
    ![Set STUDENTID](images/set-student-id.png)
 
-11. From the terminal run the following command
+10. From the terminal run the following command
 
 ```
 git clone https://github.com/IBMStockTraderLite/traderlite-cp4i.git
 ```
 
-12. Go to the repo main directory required to run the setup scripts
+11. Go to the repo main directory required to run the setup scripts
 
 ```
 cd traderlite-cp4i/scripts
